@@ -1,0 +1,53 @@
+{
+  "minar": {
+    "initial_event_pool_size": 4,
+    "additional_event_pools_size": 4
+  },
+  "mbed-os": {
+    "stdio": {
+      "default_baud": 9600,
+      "default-baud": 9600
+    }
+  },
+  "nrf51822": {
+    "ram_size": "16K"
+  },
+  "image": {
+    "heap": {
+      "warning_threshold": 1024
+    },
+    "fota": false
+  },
+  "hardware": {
+    "pins": {
+      "LED1": "p15",
+      "LED2": "p15",
+      "LED3": "p15",
+      "LED4": "p15",
+      "RX_PIN_NUMBER": "p11",
+      "TX_PIN_NUMBER": "p9",
+      "CTS_PIN_NUMBER": "p10",
+      "RTS_PIN_NUMBER": "p8",
+      "SPI_PSELMOSI0": "p20",
+      "SPI_PSELMISO0": "p22",
+      "SPI_PSELSS0": "p14",
+      "SPI_PSELSCK0": "p25",
+      "I2C_SDA0": "p29",
+      "I2C_SCL0": "p28"
+    },
+    "clocks": {
+      "nrf": {
+        "lfclk_src": 1
+      }
+    }
+  },
+  "arch": {
+    "arm": {}
+  },
+  "cmsis": {
+    "nvic": {
+      "has_custom_vtor": true
+    }
+  },
+  "mbed": {}
+}

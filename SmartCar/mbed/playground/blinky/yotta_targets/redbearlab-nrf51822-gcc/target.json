@@ -1,0 +1,56 @@
+{
+  "name": "redbearlab-nrf51822-gcc",
+  "version": "0.0.1",
+  "inherits": {
+    "nordic-nrf51822-gcc-unofficial-fota": "^1.0.0"
+  },
+  "description": "Unofficial mbed build target for the RedBearlab nrf51822 16KB chip.",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "keywords": [
+    "gcc"
+  ],
+  "similarTo": [
+    "mkit"
+  ],
+  "config": {
+    "nrf51822": {
+      "ram_size": "16K"
+    },
+    "image": {
+      "heap": {
+        "warning_threshold": 1024
+      }
+    },
+    "hardware": {
+      "pins": {
+        "LED1": "p15",
+        "LED2": "p15",
+        "LED3": "p15",
+        "LED4": "p15",
+        "RX_PIN_NUMBER": "p11",
+        "TX_PIN_NUMBER": "p9",
+        "CTS_PIN_NUMBER": "p10",
+        "RTS_PIN_NUMBER": "p8",
+        "SPI_PSELMOSI0": "p20",
+        "SPI_PSELMISO0": "p22",
+        "SPI_PSELSS0": "p14",
+        "SPI_PSELSCK0": "p25",
+        "I2C_SDA0": "p29",
+        "I2C_SCL0": "p28"
+      }
+    }
+  },
+  "scripts": {
+    "debug": [
+      "valinor",
+      "--target",
+      "NRF51822",
+      "$program"
+    ]
+  }
+}

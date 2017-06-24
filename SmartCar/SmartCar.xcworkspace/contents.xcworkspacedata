@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:../../Arduino/SmartCarGateway/BLE_API/arduino-1.6.x/hardware/RBL/RBL_nRF51822/cores/RBL_nRF51822/BLE_API-master"
+      name = "BLE_API-master">
+      <Group
+         location = "group:ble"
+         name = "ble">
+         <FileRef
+            location = "group:BLE.h">
+         </FileRef>
+         <FileRef
+            location = "group:blecommon.h">
+         </FileRef>
+         <FileRef
+            location = "group:BLEInstanceBase.h">
+         </FileRef>
+         <FileRef
+            location = "group:CallChainOfFunctionPointersWithContext.h">
+         </FileRef>
+         <FileRef
+            location = "group:DiscoveredCharacteristic.h">
+         </FileRef>
+         <FileRef
+            location = "group:DiscoveredService.h">
+         </FileRef>
+         <FileRef
+            location = "group:FunctionPointerWithContext.h">
+         </FileRef>
+         <FileRef
+            location = "group:Gap.h">
+         </FileRef>
+         <FileRef
+            location = "group:GapAdvertisingData.h">
+         </FileRef>
+         <FileRef
+            location = "group:GapAdvertisingParams.h">
+         </FileRef>
+         <FileRef
+            location = "group:GapEvents.h">
+         </FileRef>
+         <FileRef
+            location = "group:GapScanningParams.h">
+         </FileRef>
+         <FileRef
+            location = "group:GattAttribute.h">
+         </FileRef>
+         <FileRef
+            location = "group:GattCallbackParamTypes.h">
+         </FileRef>
+         <FileRef
+            location = "group:GattCharacteristic.h">
+         </FileRef>
+         <FileRef
+            location = "group:GattClient.h">
+         </FileRef>
+         <FileRef
+            location = "group:GattServer.h">
+         </FileRef>
+         <FileRef
+            location = "group:GattServerEvents.h">
+         </FileRef>
+         <FileRef
+            location = "group:GattService.h">
+         </FileRef>
+         <FileRef
+            location = "group:SecurityManager.h">
+         </FileRef>
+         <FileRef
+            location = "group:ServiceDiscovery.h">
+         </FileRef>
+         <Group
+            location = "group:services"
+            name = "services">
+            <FileRef
+               location = "group:BatteryService.h">
+            </FileRef>
+            <FileRef
+               location = "group:DeviceInformationService.h">
+            </FileRef>
+            <FileRef
+               location = "group:DFUService.h">
+            </FileRef>
+            <FileRef
+               location = "group:HealthThermometerService.h">
+            </FileRef>
+            <FileRef
+               location = "group:HeartRateService.h">
+            </FileRef>
+            <FileRef
+               location = "group:iBeaconService.h">
+            </FileRef>
+            <FileRef
+               location = "group:LinkLossService.h">
+            </FileRef>
+            <FileRef
+               location = "group:UARTService.h">
+            </FileRef>
+            <FileRef
+               location = "group:URIBeaconConfigService.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:UUID.h">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:module.json">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:source"
+         name = "source">
+         <FileRef
+            location = "group:BLE.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:DiscoveredCharacteristic.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:GapScanningParams.cpp">
+         </FileRef>
+         <Group
+            location = "group:services"
+            name = "services">
+            <FileRef
+               location = "group:DFUService.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:UARTService.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:URIBeaconConfigService.cpp">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:SmartCarMac/SmartCarMac.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:SmartCarRemote/SmartCarRemote.xcodeproj">
+   </FileRef>
+</Workspace>

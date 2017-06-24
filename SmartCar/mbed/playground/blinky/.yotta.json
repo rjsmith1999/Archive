@@ -1,0 +1,6 @@
+{
+  "build": {
+    "target": "redbearlab-nrf51822-gcc,*",
+    "targetSetExplicitly": true
+  }
+}

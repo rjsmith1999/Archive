@@ -1,0 +1,39 @@
+PODS:
+  - ATHMultiSelectionSegmentedControl (0.2.1)
+  - CrossroadRegex (1.0.0-alpha.1)
+  - NSObject+Rx (2.0.0):
+    - RxSwift
+  - RxBlocking (3.3.1):
+    - RxSwift (~> 3.3)
+  - RxCocoa (3.3.1):
+    - RxSwift (~> 3.3)
+  - RxDataSources (1.0.3):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.3.1)
+  - RxTest (3.3.1):
+    - RxSwift (~> 3.3)
+
+DEPENDENCIES:
+  - ATHMultiSelectionSegmentedControl
+  - CrossroadRegex (~> 1.0-alpha.1)
+  - NSObject+Rx
+  - RxBlocking (~> 3.0)
+  - RxCocoa (~> 3.0)
+  - RxDataSources (~> 1.0)
+  - RxSwift (~> 3.0)
+  - RxTest (~> 3.0)
+
+SPEC CHECKSUMS:
+  ATHMultiSelectionSegmentedControl: 9f574fc68f62639768fe9eeffb1a4ffcfe09eb25
+  CrossroadRegex: 93dac3d83c1192e568f5679668958155e8694b79
+  NSObject+Rx: 2a9cd801d9c847e6d2486cbad8d7701b67834e70
+  RxBlocking: c5918ecb86b8c205a8ccc6d1ff2abb338ddc50a0
+  RxCocoa: 7dcb7a1860fc9cd0e23dae67ab105fc2916670b6
+  RxDataSources: a021a0e944ba5f7991259829d973afdbfa719c0b
+  RxSwift: 8fc9f2de6275a9101d518444e00bf32f1a42caac
+  RxTest: f4e7360033fafa743f2f85097efa958402ed442a
+
+PODFILE CHECKSUM: 437b146d9fe13a1943753d02be03f6b437bc8f50
+
+COCOAPODS: 1.2.0

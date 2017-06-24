@@ -1,0 +1,6 @@
+framework module Pods_Message_AnalyzerUITests {
+  umbrella header "Pods-Message AnalyzerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
